@@ -1,0 +1,3 @@
+output/*.fbm/
+__pycache__/
+*.blend1

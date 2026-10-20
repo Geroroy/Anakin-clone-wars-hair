@@ -1,0 +1,96 @@
+{
+  "name": "anakin_ahsoka",
+  "description": "Anakin Skywalker (Ahsoka / Clone Wars era, Hayden Christensen): short tapered sides and nape, longer wavy top swept up and across to the character's left from a parting on the character's right, warm medium-brown.",
+  "texture_flip_v": true,
+  "use_normal_maps": false,
+  "hair_tint_rgb": [
+    0.55,
+    0.36,
+    0.22
+  ],
+  "hair_tint_mix": 0.0,
+  "roughness": 0.62,
+  "specular": 0.08,
+  "seed": 7,
+  "length_scale": 1.0,
+  "part_x": -0.025,
+  "part_width": 0.03,
+  "sweep_dir": [
+    0.9,
+    0.35,
+    -0.1
+  ],
+  "wave_freq": 0.9,
+  "collision_margin": 0.005,
+  "max_rise": 0.02,
+  "crown_clearance": 0.012,
+  "regions": {
+    "top": {
+      "length": 0.95,
+      "sweep": 0.6,
+      "sweep_dir": [
+        0.85,
+        0.4,
+        -0.25
+      ],
+      "lift": 0.01,
+      "wave_amp": 0.006,
+      "droop": 0.0
+    },
+    "front": {
+      "length": 0.85,
+      "sweep": 0.8,
+      "sweep_dir": [
+        0.75,
+        0.6,
+        0.2
+      ],
+      "lift": 0.008,
+      "wave_amp": 0.005,
+      "droop": 0.0
+    },
+    "side_L": {
+      "length": 0.45,
+      "sweep": 0.35,
+      "sweep_dir": [
+        0.15,
+        0.7,
+        -0.7
+      ],
+      "lift": 0.002,
+      "wave_amp": 0.002,
+      "droop": 0.004
+    },
+    "side_R": {
+      "length": 0.45,
+      "sweep": 0.35,
+      "sweep_dir": [
+        -0.15,
+        0.7,
+        -0.7
+      ],
+      "lift": 0.002,
+      "wave_amp": 0.002,
+      "droop": 0.004
+    },
+    "back": {
+      "length": 0.62,
+      "sweep": 0.25,
+      "sweep_dir": [
+        0.0,
+        0.4,
+        -0.9
+      ],
+      "lift": 0.004,
+      "wave_amp": 0.003,
+      "droop": 0.006
+    },
+    "nape": {
+      "curl": 0.01
+    }
+  },
+  "max_out": 0.035,
+  "wave_coherence": 5.0,
+  "wave_jitter": 0.35,
+  "front_extra_rise": 0.06
+}
